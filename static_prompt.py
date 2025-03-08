@@ -9,7 +9,7 @@ import streamlit as st
 os.environ["HF_HOME"] = "F:/Python3/AA_Practice/genai/TinyLlama"
 llm = HuggingFacePipeline.from_model_id(model_id="TinyLlama/TinyLlama-1.1B-Chat-v1.0", task="text-generation")
 model = ChatHuggingFace(llm=llm)
-st.header("AI Demo with Langchain")
+st.header("Static Prompt with Langchain")
 prompt = st.text_input("Enter your prompt: ")
 if st.button("Summarize"):
     result = model.invoke(prompt)
