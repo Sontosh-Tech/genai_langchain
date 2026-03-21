@@ -1,0 +1,5 @@
+Collecting tokenizer
+  Downloading tokenizer-3.6.2-py3-none-any.whl.metadata (39 kB)
+Downloading tokenizer-3.6.2-py3-none-any.whl (83 kB)
+Installing collected packages: tokenizer
+Successfully installed tokenizer-3.6.2
